@@ -39,6 +39,18 @@ const Login = () => {
                 }
                 )}
             </ul>
+            <div style={{ marginBottom: "20px" }}>
+                <Link href="/login/cadastrar" style={{
+                    padding: "10px",
+                    backgroundColor: "green",
+                    color: "white",
+                    textDecoration: "none",
+                    borderRadius: "5px"
+                }}>
+                    Cadastrar Novo Usuário
+                </Link>
+            </div>
+            <Link href="/">VOLTAR PARA INÍCIO</Link>
         </>
     )
 }

@@ -1,47 +1,70 @@
 {
-    "login":[
-        {
-            "id":1,
-            "nome":"administrador",
-            "usuario":"admin",
-            "senha":"123456",
-            "status":"ativo"
-        },
-        {
-            "id":2,
-            "nome":"Maria Silva",
-            "usuario":"maria",
-            "senha":"senha123",
-            "status":"ativo"
-        }
-    ],
-    "funcionario":[
-        {
-            "id": 1,
-            "nome":"João da Silva",
-            "cpf":"123.456.789-00",
-            "email":"jao@email.com",
-            "dtNascimento":"1985-05-20",
-            "dtAdmissao":"2020-01-15",
-            "status":"admitido"
-        },
-        {
-            "id": 2,
-            "nome":"Ana Paula",
-            "cpf":"321.654.987-11",
-            "email":"ana@email.com",
-            "dtNascimento":"1990-10-10",
-            "dtAdmissao":"2021-02-01",
-            "status":"admitido"
-        },
-        {
-            "id": 3,
-            "nome":"Carlos Eduardo",
-            "cpf":"741.852.963-44",
-            "email":"carlin@email.com",
-            "dtNascimento":"1988-07-07",
-            "dtAdmissao":"2019-08-20",
-            "status":"demitido"
-        }
-    ]
+  "login": [
+    {
+      "id": "1",
+      "nome": "administrador",
+      "usuario": "admin",
+      "senha": "123456",
+      "status": "ativo"
+    },
+    {
+      "id": "2",
+      "nome": "Maria Silva",
+      "usuario": "maria",
+      "senha": "senha123",
+      "status": "ativo"
+    },
+    {
+      "id": "3",
+      "nome": "Gerson Mendonça",
+      "usuario": "gerson",
+      "senha": "pinturasDecorativas",
+      "status": "inativo"
+    },
+    {
+      "id": "069f",
+      "nome": "qualquer coisa",
+      "usuario": "coisa",
+      "senha": "seila1234",
+      "status": "ativo"
+    }
+  ],
+  "funcionario": [
+    {
+      "id": "1",
+      "nome": "João da Silva",
+      "cpf": "123.456.789-00",
+      "email": "jao@email.com",
+      "dtNascimento": "1985-05-20",
+      "dtAdmissao": "2020-01-15",
+      "status": "admitido"
+    },
+    {
+      "id": "2",
+      "nome": "Ana Paula",
+      "cpf": "321.654.987-11",
+      "email": "ana@email.com",
+      "dtNascimento": "1990-10-10",
+      "dtAdmissao": "2021-02-01",
+      "status": "admitido"
+    },
+    {
+      "id": "3",
+      "nome": "Carlos Eduardo",
+      "cpf": "741.852.963-44",
+      "email": "carlin@email.com",
+      "dtNascimento": "1988-07-07",
+      "dtAdmissao": "2019-08-20",
+      "status": "demitido"
+    },
+    {
+      "id": "4",
+      "nome": "Calabreso Cenepejoto",
+      "cpf": "234.567.789-10",
+      "email": "calabreso@email.com",
+      "dtNascimento": "1980-07-07",
+      "dtAdmissao": "2020-08-20",
+      "status": "admitido"
+    }
+  ]
 }
